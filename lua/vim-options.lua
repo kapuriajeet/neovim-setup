@@ -16,3 +16,6 @@ vim.keymap.set("n", "<c-l>", ":wincmd l<CR>")
 vim.keymap.set("v", "<leader>c", '"+y', { desc = "Yank selection to system clipboard" })
 vim.keymap.set("n", "<leader>h", ":nohlsearch<CR>")
 vim.wo.number = true
+
+vim.opt.relativenumber = true
+vim.opt.number = true
